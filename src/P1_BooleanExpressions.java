@@ -1,36 +1,36 @@
 /*
 	ISYS 320
-	Name(s):
+	Name(s):Brian Williams
 	Date: 
 */
 
 /*
  Your expression predictions:
  
- 1.
- 2.
- 3. 
- 4.
+ 1.True
+ 2.True
+ 3. False
+ 4.False
  
- 5.
- 6.
- 7.
- 8.
+ 5.True
+ 6.False
+ 7.True
+ 8.True
    
  */
 
 /*
  Were you correct? Explain if you were not (what did you learn?)
  
- 1.
- 2.
- 3. 
- 4.
+ 1.Correct
+ 2.Correct
+ 3.Correct
+ 4.Correct
  
- 5.
- 6.
- 7.
- 8.
+ 5.Correct
+ 6.Correct
+ 7.Correct
+ 8.Correct
 
  */
 public class P1_BooleanExpressions {
@@ -41,7 +41,7 @@ public class P1_BooleanExpressions {
 		int z = 32; 
 		boolean b = false; 
 		
-		System.out.println("REPLACE THIS STRING WITH YOUR BOOLEAN EXPRESSION");
+		System.out.println((x < y) == b);
 	}
 
 }
